@@ -1,12 +1,16 @@
 .card {
-  padding: 39px 77px 31px 34px;
+  width: 256px;
+  height: 340px;
+  padding: 39px 34px 31px 34px;
   border-radius: 4px;
   background: #fff;
   box-shadow: 5px 10px 30px 0px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
   gap: 35px;
+  position: relative;
   .card__title {
+    width: 150px;
     font-size: 14px;
     font-weight: 700;
   }
@@ -22,5 +26,56 @@
     font-size: 14px;
     font-weight: 400;
     text-decoration-line: underline;
+  }
+
+  .card__imgTwo {
+    position: absolute;
+    top: 25px;
+    right: 0;
+  }
+  .card__imgThree {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+  }
+  .card__imgFour {
+    position: absolute;
+    top: 5px;
+    right: 0;
+  }
+}
+.cardOne {
+  width: 256px;
+  height: 340px;
+  padding: 39px 34px 31px 34px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 5px 10px 30px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  position: relative;
+  .card__title {
+    width: 150px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .card__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .card__link {
+    color: #828282;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration-line: underline;
+  }
+  .card__imgOne {
+    position: absolute;
+    top: 10px;
+    right: 0;
   }
 }

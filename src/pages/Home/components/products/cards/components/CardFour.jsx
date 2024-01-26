@@ -1,9 +1,9 @@
-import cl from "./Card.module.scss";
+import cl from "././Card.module.scss";
 
-const CardOne = () => {
+const CardFour = () => {
   return (
-    <div className={cl.cardOne}>
-      <h4 className={cl.card__title}>ТРУБНЫЙ ПРОКАТ</h4>
+    <div className={cl.card}>
+      <h4 className={cl.card__title}>ЦВЕТНОЙ МЕТАЛЛОПРОКАТ</h4>
       <ul className={cl.card__list}>
         <li className={cl.list__item}>
           <p className={cl.item__text}>Сортовой прокат</p>
@@ -22,12 +22,12 @@ const CardOne = () => {
         Смотреть все
       </a>
       <img
-        className={cl.card__imgOne}
-        src="./public/images/home/products/product-1.png"
+        className={cl.card__imgFour}
+        src="./public/images/home/products/product-4.png"
         alt="product image"
       />
     </div>
   );
 };
 
-export default CardOne;
+export default CardFour;
