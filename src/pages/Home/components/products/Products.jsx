@@ -5,13 +5,13 @@ const Products = () => {
   return (
     <section className={cl.product}>
       <div className="container">
-        <div className={cl.wrapper}>
+        <div className={cl.product__wrapper}>
           <div className={cl.cards__wrapper}>
             <Cards />
           </div>
           <div className={cl.links__wrapper}>
-            <a href="#">Смотреть все</a>
-            <a href="#">скачать прайс-лист</a>
+            <a className={cl.link__look} href="#">Смотреть все</a>
+            <a className={cl.link__price} href="#">скачать прайс-лист</a>
           </div>
         </div>
       </div>

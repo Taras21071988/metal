@@ -1,3 +1,5 @@
+@import "./vars/vars.scss";
+
 *,
 *::before,
 *::after {
@@ -37,9 +39,9 @@ li {
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  color: #000;
+  color: var(--text-color);
 }
-button{
+button {
   border: none;
 }
 
