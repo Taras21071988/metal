@@ -1,0 +1,21 @@
+.slide__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0 32px 0;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  width: 256px;
+  height: 256px;
+  .slide__img {
+    width: 224px;
+    height: 137px;
+    margin-bottom: 31px;
+  }
+  .slide__text {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+}

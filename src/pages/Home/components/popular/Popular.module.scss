@@ -1,0 +1,14 @@
+.popular {
+  margin-bottom: 136px;
+  .popular__wrapper {
+    display: flex;
+    flex-direction: column;
+    .popular__title {
+      margin-bottom: 40px;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}
