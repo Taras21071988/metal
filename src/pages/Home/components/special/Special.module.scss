@@ -1,0 +1,26 @@
+.special {
+  margin-bottom: 112px;
+  .special__wrapper {
+    display: flex;
+    flex-direction: column;
+    .special__titleWrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 54px;
+      .special__title {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      .special__link {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    .special__content {
+      display: flex;
+      justify-content: space-between;
+      gap: 50px;
+    }
+  }
+}

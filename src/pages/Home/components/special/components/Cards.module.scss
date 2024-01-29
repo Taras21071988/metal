@@ -1,0 +1,37 @@
+.card__wrapper {
+  border-radius: 4px;
+  box-shadow: 5px 10px 40px 0px rgba(0, 0, 0, 0.1);
+  padding: 38px;
+  position: relative;
+  width: 358px;
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    width: 192px;
+    .card__text {
+      margin-bottom: 20px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .card__price {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 60px;
+    }
+    .card__link {
+      font-size: 14px;
+      font-weight: 400;
+      text-decoration-line: underline;
+    }
+  }
+  .cards__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .cards__imgTwo {
+    position: absolute;
+    top: 30px;
+    right: 0;
+  }
+}
