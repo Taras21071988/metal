@@ -1,0 +1,16 @@
+.clients {
+  margin-bottom: 82px;
+  .clients__wrapper {
+    display: flex;
+    flex-direction: column;
+    .clients__title {
+      margin-bottom: 57px;
+    }
+    .clients__list {
+      display: flex;
+      justify-content: space-between;
+      gap: 201px;
+      align-items: center;
+    }
+  }
+}
