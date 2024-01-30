@@ -1,0 +1,11 @@
+.list__wrapper {
+  display: grid;
+  grid-template-columns: 200px 270px;
+  column-gap: 100px;
+  row-gap: 60px;
+  .list__item {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+  }
+}
