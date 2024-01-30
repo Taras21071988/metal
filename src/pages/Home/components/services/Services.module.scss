@@ -1,0 +1,15 @@
+.services {
+  margin-bottom: 65px;
+  max-height: 500px;
+  .services__wrapper {
+    display: flex;
+    justify-content: space-between;
+    .services__listWrapper {
+      display: flex;
+      flex-direction: column;
+      .services__title {
+        margin-bottom: 48px;
+      }
+    }
+  }
+}
