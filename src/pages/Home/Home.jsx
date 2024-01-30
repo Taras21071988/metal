@@ -1,4 +1,5 @@
 import cl from "./Home.module.scss";
+import Choose from "./components/choose/Choose";
 import Clients from "./components/clients/Clients";
 import Description from "./components/description/Description";
 import Popular from "./components/popular/Popular";
@@ -15,6 +16,7 @@ const Home = () => {
       <Special />
       <Services />
       <Clients />
+      <Choose />
     </main>
   );
 };
