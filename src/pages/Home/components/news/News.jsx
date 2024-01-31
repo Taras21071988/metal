@@ -36,7 +36,18 @@ const News = () => {
                 значительной степени обуславливает создание модели развития.
               </p>
             </div>
+            <div className={cl.content__wrapper}>
+              <h3 className={cl.content__title}>Название новости</h3>
+              <time className={cl.content__time}>24.03.2020</time>
+              <p className={cl.content__text}>
+                Таким образом реализация намеченных плановых заданий в
+                значительной степени обуславливает создание модели развития.
+              </p>
+            </div>
           </div>
+          <a className={cl.news__btn} href="#">
+            все новости
+          </a>
         </div>
       </div>
     </section>
