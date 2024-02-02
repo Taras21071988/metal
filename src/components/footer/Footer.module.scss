@@ -1,0 +1,118 @@
+.footer {
+  background: #f2f2f2;
+  padding-top: 40px;
+  .footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    .footer__descr {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 100px;
+      margin-bottom: 40px;
+      .footer__logoWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 200px;
+        font-size: 10px;
+        line-height: 110%;
+        .logo__img {
+          max-width: 158px;
+          margin-bottom: 116px;
+        }
+        .logo__title {
+          font-weight: 700;
+          text-decoration: underline;
+        }
+        .logo__text {
+          color: var(--grey);
+        }
+      }
+      .footer__company {
+        .company__list {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          font-size: 14px;
+          line-height: 16px;
+          .list__title {
+            font-weight: 700;
+            margin-bottom: 20px;
+          }
+          .list__item {
+            font-weight: 400;
+          }
+        }
+      }
+      .footer__catalog {
+        .catalog__title {
+          margin-bottom: 35px;
+          font-size: 14px;
+          font-weight: 700;
+        }
+        .catalog__list {
+          display: grid;
+          grid-template-columns: 2fr 155px;
+          row-gap: 20px;
+          column-gap: 82px;
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+      .footer__contacts {
+        display: flex;
+        flex-direction: column;
+        .contact__title {
+          margin-bottom: 35px;
+          font-size: 14px;
+          font-weight: 700;
+        }
+        .contact__phone {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 21px;
+          margin-bottom: 20px;
+        }
+        .contact__mail {
+          margin-bottom: 72px;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 21px;
+        }
+        .contact__btn {
+          border-radius: 4px;
+          background: var(--orange);
+
+          color: var(--text-color-accent);
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 14px;
+          text-align: center;
+          padding: 14px 25px;
+        }
+      }
+    }
+  }
+  .footer__license {
+    background: #666666;
+    padding: 32px 0 31px;
+    .footer__legal {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .legal__text {
+        max-width: 153px;
+        color: #f2f2f2;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 120%;
+      }
+      .legal__link {
+        display: flex;
+        gap: 34px;
+      }
+    }
+  }
+}

@@ -28,6 +28,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className={cl.footer__catalog}>
+              <h4 className={cl.catalog__title}>Каталог</h4>
               <ul className={cl.catalog__list}>
                 <li className={cl.catalog__listItem}>Трубный прокат</li>
                 <li className={cl.catalog__listItem}>
@@ -52,10 +53,14 @@ const Footer = () => {
                 atomes@help.com
               </a>
               <a className={cl.contact__btn} href="#">
-                <button className={cl.btn}>ЗАКАЗТЬ ЗВОНОК</button>
+                ЗАКАЗТЬ ЗВОНОК
               </a>
             </div>
           </div>
+        </div>
+      </div>
+      <div className={cl.footer__license}>
+        <div className="container">
           <div className={cl.footer__legal}>
             <p className={cl.legal__text}>
               © 2009-2020 ООО “Стальэнерго” Все права защищены
