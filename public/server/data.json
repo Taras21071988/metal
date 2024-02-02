@@ -1,12 +1,44 @@
 {
-  "data": [
+  "choose": [
     {
       "id": 1,
-      "name": 1
+      "text": "Большой выбор качественной продукции",
+      "img": "../images/choose/choose1.png"
     },
     {
       "id": 2,
-      "name": 2
+      "text": "Широкий выбор металлоизделий в одном месте",
+      "img": "../images/choose/choose2.png"
+    },
+    {
+      "id": 3,
+      "text": "Помощь в таможенном оформлении грузов",
+      "img": "../images/choose/choose3.png"
+    },
+    {
+      "id": 4,
+      "text": "Доставим продукцию по России или в другие страны",
+      "img": "../images/choose/choose4.png"
+    },
+    {
+      "id": 5,
+      "text": "Персональный подход к каждому клиенту",
+      "img": "../images/choose/choose5.png"
+    },
+    {
+      "id": 6,
+      "text": "Скидки и бонусы постоянным клиентам",
+      "img": "../images/choose/choose6.png"
+    },
+    {
+      "id": 7,
+      "text": "Предоставление товарного кредита и отсрочки оплаты",
+      "img": "../images/choose/choose7.png"
+    },
+    {
+      "id": 8,
+      "text": "Большой выбор услуг на складе: упаковка, резка в размер и пр.",
+      "img": "../images/choose/choose8.png"
     }
   ]
 }
